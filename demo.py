@@ -54,7 +54,7 @@ tutor = dspy.ReAct(Tutor, tools=[search_wikipedia])
 #print(tutor)
 #print(dis(place_1="Pollachi",place_2="Coimbatore"))
 #print(chat)
-
+#print(content.rm)
 
 stream_predict = dspy.streamify(
     tutor,
